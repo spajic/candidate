@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/disser_tex/doc/latex/disser/templates/candidate",
+			"file_exclude_patterns": [
+			"*.pdf",
+			"*.gz",
+			"*.aux",
+			"*.bbl",
+			"*.blg",
+			"*.out",
+			"*.toc",
+			"*.dvi",
+			"*.cmd",
+			"*.log",
+			"*.lof",
+			"Makefile"
+			]
+		}
+	]
+}

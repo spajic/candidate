@@ -1,0 +1,688 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ite",
+				"item	Itemize"
+			],
+			[
+				"item",
+				"itemize"
+			],
+			[
+				"An",
+				"An  "
+			],
+			[
+				"Type",
+				"TypeAndRepeats"
+			],
+			[
+				"E",
+				"Etalon"
+			],
+			[
+				"Pa",
+				"ParallelManagers"
+			],
+			[
+				"AWS",
+				"AWS_SECRET_ACCESS_KEY"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "thesis.bib",
+			"settings":
+			{
+				"buffer_size": 3514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "autoref.tex",
+			"settings":
+			{
+				"buffer_size": 30935,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.tex",
+			"settings":
+			{
+				"buffer_size": 2550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common.tex",
+			"settings":
+			{
+				"buffer_size": 8645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "1.tex",
+			"settings":
+			{
+				"buffer_size": 535,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "my_candidate.sublime-project",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/disser_tex/doc/latex/disser/README.ru",
+			"settings":
+			{
+				"buffer_size": 3468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intro.tex",
+			"settings":
+			{
+				"buffer_size": 571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+			"settings":
+			{
+				"buffer_size": 4232,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"unf",
+				"Code Folding: Unfold All"
+			],
+			[
+				"unfo",
+				"Code Folding: Unfold All"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/autoref.tex",
+		"/C/disser_tex/doc/latex/disser/templates/master/thesis.tex",
+		"/C/disser_tex/doc/latex/disser/templates/doctor/thesis.tex",
+		"/C/disser_tex/doc/latex/disser/templates/bachelor/thesis.tex",
+		"/C/disser_tex/doc/latex/disser/templates/bachelor/1.tex",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/app-a.tex",
+		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/subfig/subfig.sty",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI22.366/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.474/text.tex",
+		"/C/Program Files (x86)/MiKTeX 2.9/dvipdfm/config/config",
+		"/C/Program Files (x86)/MiKTeX 2.9/miktex/config/updmap.cfg",
+		"/C/Program Files (x86)/MiKTeX 2.9/pdftex/config/pdftex.cfg",
+		"/C/Program Files (x86)/MiKTeX 2.9/dvips/config/config.ps",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/common.tex",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/autoref.tex",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/thesis.tex",
+		"/C/disser_tex/doc/latex/disser/README.ru",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/1.tex",
+		"/C/disser_tex/doc/latex/disser/templates/bachelor/thesis.aux",
+		"/C/disser_tex/doc/latex/disser/templates/doctor/1.tex",
+		"/C/disser_tex/doc/latex/disser/templates/doctor/app-a.tex",
+		"/C/disser_tex/doc/latex/disser/templates/doctor/autoref.tex",
+		"/C/disser_tex/doc/latex/disser/templates/doctor/intro.tex",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Диссертация/disser_tex/doc/latex/disser/templates/candidate/thesis.tex",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Диссертация/disser_tex/doc/latex/disser/README.ru",
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/common.tex",
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/app-a.tex",
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/thesis.tex",
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/1.tex",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Диссертация/disser_tex/doc/latex/disser/templates/candidate/intro.tex",
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/intro.tex",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/review.tex",
+		"/C/Program Files (x86)/MiKTeX 2.9/doc/latex/koma-script/INSTALL.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI83.250/README",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI84.101/README.ru",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.259/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.996/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.834/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.919/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.946/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI01.077/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI01.513/svn.history.txt",
+		"/C/class_algo2/assignments/algo2_assign3/large.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.180/svn.history.txt",
+		"/C/class_algo2/assignments/algo2_assign3/test1.txt",
+		"/C/class_algo2/assignments/algo2_assign3/test2.txt",
+		"/C/class_algo2/assignments/algo2_assign3/g3.txt",
+		"/C/class_algo2/assignments/algo2_assign3/g2.txt",
+		"/C/class_algo2/assignments/algo2_assign3/g1.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.838/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.056/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.822/svn.history.txt",
+		"/C/Users/1/Downloads/14 - 2 - Optimal Substructure (11 min).txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.680/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.388/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.836/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.089/svn.history.txt",
+		"/C/Users/1/Desktop/интернет.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.934/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.341/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.912/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.228/svn.history.txt",
+		"/C/class_algo2/assignments/assignment 3/simple_test.txt",
+		"/C/class_algo2/assignments/assignment 3/knapsack1.txt",
+		"/C/class_algo2/assignments/assignment 3/knapsack2.txt",
+		"/C/class_algo2/assignments/knapsack2.txt",
+		"/C/Users/1/Dropbox/dokuwiki/my_dokuwiki/conf/.htaccess",
+		"/C/Users/1/Dropbox/dokuwiki/my_dokuwiki/lib/plugins/liffiton-dokuwiki-plugin-mathjax-23bd25a/plugin.info.txt",
+		"/C/Users/1/Dropbox/dokuwiki/my_dokuwiki/lib/plugins/mathjax/action/enable.php",
+		"/C/Users/1/Dropbox/dokuwiki/my_dokuwiki/lib/plugins/mathjax/README",
+		"/C/Users/1/Dropbox/dokuwiki/my_dokuwiki/inc/geshi/ini.php",
+		"/C/Users/1/Dropbox/dokuwiki/my_dokuwiki/conf/dokuwiki.php",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Статьи/Статья №3/Васильев - для Нефть, газ и бизнес/Аннотация и ключевые слова.txt",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Статьи/Статья №2/Газовая промышленность/Требования",
+		"/C/Work/Bootstrap/ttd/bootstrap/css/bootstrap.css",
+		"/C/Work/Bootstrap/ttd/my.css",
+		"/C/Work/Bootstrap/ttd/sostav.html",
+		"/C/Work/Bootstrap/ttd/vasylev.html",
+		"/C/Work/Bootstrap/ttd/lopatin.html",
+		"/C/Work/Bootstrap/ttd/Васильев Алексей Владимирович - биография",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.758/svn.history.txt",
+		"/C/Work/Bootstrap/ttd/basic.html",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.544/svn.history.txt",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Статьи/Статья №2/Газовая промышленность/Установка.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.529/svn.history.txt",
+		"/C/Users/1/Desktop/башмаково.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.045/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.568/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.139/svn.history.txt",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Веста/Саратов/Командировка декабрь 2012/13.12.2012/Сообщения/Сообщения.txt",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Веста/Саратов/Командировка декабрь 2012/Ошибка.txt",
+		"/D/Torrents/Garmin TOPO Australia & New Zealand v4 UNLOCKED/Garmin TOPO Australia & New Zealand v4 UNLOCKED.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.211/svn.history.txt",
+		"/C/Users/1/Dropbox/1. Порядок/РГУ Нефти и газа/Веста/Саратов/Командировка декабрь 2012/13.12.2012/мысли.txt",
+		"/C/class_hetero/week2/mp2_data/0/output.raw",
+		"/C/class_hetero/week2/mp2_data/0/input0.raw",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.638/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.900/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.043/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.997/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.947/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.165/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.166/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.131/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.509/svn.history.txt",
+		"/C/Enisey/src/config/config.json",
+		"/C/Enisey/perf/21.11.2012/Local/SLAE/SLAE_local_50xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/SLAE/SLAE_ice_50xSaratov_server.log",
+		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_200xSaratov_server.log",
+		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_200xSaratov - server.log",
+		"/C/Users/1/Dropbox/Enisey/MEIJIN_server.log",
+		"/C/Enisey/perf/21.11.2012/Profiling/Calc_Debug/GTS_PROFILE.txt",
+		"/C/Enisey/perf/21.11.2012/Profiling/Calc_Debug/CALC_PROFILE.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.322/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.244/svn.history.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.204/svn.history.txt",
+		"/C/Users/1/Dropbox/Calc/Calc/GTS_PROFILE.txt",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.243/svn.history.txt",
+		"/C/Enisey/src/EniseySolution/test/25_11_x_MEIJIN_GTS.log",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.290/svn.history.txt",
+		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_200xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_100xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_50xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_10xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_1xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_200xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_100xSaratov.log",
+		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_50xSaratov.log"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$",
+			"распределённый режим",
+			"itemize",
+			"table",
+			"$",
+			"image",
+			".container",
+			"200",
+			"9102",
+			"windows",
+			"new",
+			"день",
+			"27",
+			"День",
+			"26",
+			"!",
+			"День",
+			"Де",
+			"25",
+			"День",
+			"24",
+			"день",
+			"23",
+			", ",
+			"[",
+			"День",
+			"22",
+			"День",
+			"21",
+			"20",
+			"День",
+			"20",
+			"Ланочка",
+			"Светлана",
+			"\\",
+			"put",
+			"list_bucket",
+			"http.cli",
+			"httplib",
+			",",
+			"Щук",
+			"20",
+			"День",
+			"19",
+			"sstream",
+			"7 8"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "thesis.bib",
+					"settings":
+					{
+						"buffer_size": 3514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3344,
+								3344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 968.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "autoref.tex",
+					"settings":
+					{
+						"buffer_size": 30935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26673,
+								26673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9153.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "thesis.tex",
+					"settings":
+					{
+						"buffer_size": 2550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2066,
+								2066
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1782.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "common.tex",
+					"settings":
+					{
+						"buffer_size": 8645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 341.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "1.tex",
+					"settings":
+					{
+						"buffer_size": 535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "my_candidate.sublime-project",
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/disser_tex/doc/latex/disser/README.ru",
+					"settings":
+					{
+						"buffer_size": 3468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "intro.tex",
+					"settings":
+					{
+						"buffer_size": 571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+					"settings":
+					{
+						"buffer_size": 4232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 377.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"comm",
+				"common.tex"
+			],
+			[
+				"thes.te",
+				"thesis.tex"
+			],
+			[
+				"int",
+				"intro.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true
+}
