@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"admin",
+				"eq:adaptation_F_to_minimize"
+			],
+			[
+				"ada",
+				"eq:adatptation_Taylor_series"
+			],
+			[
+				"eq",
+				"eq:adaptation_least_squares"
+			],
+			[
+				"tabu",
+				"tabular"
+			],
+			[
 				"ite",
 				"item	Itemize"
 			],
@@ -36,50 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "thesis.bib",
-			"settings":
-			{
-				"buffer_size": 3514,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "autoref.tex",
 			"settings":
 			{
-				"buffer_size": 30935,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "thesis.tex",
-			"settings":
-			{
-				"buffer_size": 2550,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "common.tex",
-			"settings":
-			{
-				"buffer_size": 8645,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "1.tex",
-			"settings":
-			{
-				"buffer_size": 535,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "my_candidate.sublime-project",
-			"settings":
-			{
-				"buffer_size": 224,
+				"buffer_size": 51568,
 				"line_ending": "Unix"
 			}
 		},
@@ -92,19 +68,35 @@
 			}
 		},
 		{
-			"file": "intro.tex",
+			"file": "/C/disser_tex/doc/latex/disser/templates/bachelor/1.tex",
 			"settings":
 			{
-				"buffer_size": 571,
+				"buffer_size": 4201,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+			"file": "common.tex",
 			"settings":
 			{
-				"buffer_size": 4232,
+				"buffer_size": 8965,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.tex",
+			"settings":
+			{
+				"buffer_size": 2550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.bib",
+			"settings":
+			{
+				"buffer_size": 6123,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -117,6 +109,22 @@
 			[
 				"w",
 				"Word Wrap: Toggle"
+			],
+			[
+				"snip eq",
+				"Snippet: Equation"
+			],
+			[
+				"snip ta",
+				"Snippet: table"
+			],
+			[
+				"Snippet: fig",
+				"Snippet: figure"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Figure"
 			],
 			[
 				"wp",
@@ -152,11 +160,29 @@
 	},
 	"file_history":
 	[
+		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/caption/caption.sty",
+		"/C/Users/1/Desktop/man-thesisby.tex",
+		"/C/Users/1/Desktop/text.tex",
+		"/C/disser_tex/doc/latex/disser/templates/bachelor/1.tex",
+		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/setspace/setspace.sty",
+		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/tabulary/tabulary.sty",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/1.tex",
+		"/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/User/myeq_snippet.sublime-snippet",
+		"/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/User/my_snippets.sublime-snippet",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/autoref.bbl",
+		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/tools/array.sty",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/my_candidate.sublime-project",
+		"/C/disser_tex/doc/latex/disser/README.ru",
+		"/C/disser_tex/doc/latex/disser/include/latex.fig.mk",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/fig/README_sam2p",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/intro.tex",
+		"/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/1/Desktop/tabulary.dtx",
 		"/C/disser_tex/doc/latex/disser/templates/my_candidate/autoref.tex",
+		"/C/Users/1/Downloads/README",
 		"/C/disser_tex/doc/latex/disser/templates/master/thesis.tex",
 		"/C/disser_tex/doc/latex/disser/templates/doctor/thesis.tex",
 		"/C/disser_tex/doc/latex/disser/templates/bachelor/thesis.tex",
-		"/C/disser_tex/doc/latex/disser/templates/bachelor/1.tex",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/app-a.tex",
 		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/subfig/subfig.sty",
 		"/C/Users/1/AppData/Local/Temp/Rar$DI22.366/svn.history.txt",
@@ -168,8 +194,6 @@
 		"/C/disser_tex/doc/latex/disser/templates/candidate/common.tex",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/autoref.tex",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/thesis.tex",
-		"/C/disser_tex/doc/latex/disser/README.ru",
-		"/C/disser_tex/doc/latex/disser/templates/candidate/1.tex",
 		"/C/disser_tex/doc/latex/disser/templates/bachelor/thesis.aux",
 		"/C/disser_tex/doc/latex/disser/templates/doctor/1.tex",
 		"/C/disser_tex/doc/latex/disser/templates/doctor/app-a.tex",
@@ -263,23 +287,7 @@
 		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_200xSaratov_server.log",
 		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_200xSaratov - server.log",
 		"/C/Users/1/Dropbox/Enisey/MEIJIN_server.log",
-		"/C/Enisey/perf/21.11.2012/Profiling/Calc_Debug/GTS_PROFILE.txt",
-		"/C/Enisey/perf/21.11.2012/Profiling/Calc_Debug/CALC_PROFILE.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.322/svn.history.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.244/svn.history.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.204/svn.history.txt",
-		"/C/Users/1/Dropbox/Calc/Calc/GTS_PROFILE.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.243/svn.history.txt",
-		"/C/Enisey/src/EniseySolution/test/25_11_x_MEIJIN_GTS.log",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.290/svn.history.txt",
-		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_200xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_100xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_50xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_10xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_1xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_200xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_100xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_50xSaratov.log"
+		"/C/Enisey/perf/21.11.2012/Profiling/Calc_Debug/GTS_PROFILE.txt"
 	],
 	"find":
 	{
@@ -297,6 +305,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Section",
+			"mytable",
+			"img",
+			"img:",
+			"eq:",
+			"section*",
+			"методы и средства",
+			"section",
+			"eqre",
+			"section",
+			"myta",
+			"vcenter",
+			"TY@box@v",
+			"vtop",
+			"TY@box",
+			"startpbox",
+			"renew",
+			"vtop",
+			"p{",
+			"newcom",
+			"tabular",
+			"section",
+			"ref",
+			"явное управ",
+			"pages",
+			"cite",
+			"img",
+			"restore",
+			"double",
+			"new",
+			"doublespace",
+			"singlespace",
+			"$",
+			"$4",
 			"$",
 			"распределённый режим",
 			"itemize",
@@ -362,51 +404,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "thesis.bib",
-					"settings":
-					{
-						"buffer_size": 3514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3344,
-								3344
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 968.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "autoref.tex",
 					"settings":
 					{
-						"buffer_size": 30935,
+						"buffer_size": 51568,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26673,
-								26673
+								47122,
+								47122
 							]
 						],
 						"settings":
@@ -417,118 +431,13 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9153.0,
+						"translation.y": 21755.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "thesis.tex",
-					"settings":
-					{
-						"buffer_size": 2550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2066,
-								2066
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1782.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "common.tex",
-					"settings":
-					{
-						"buffer_size": 8645,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								778,
-								778
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 341.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "1.tex",
-					"settings":
-					{
-						"buffer_size": 535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								430,
-								430
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 132.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "my_candidate.sublime-project",
-					"settings":
-					{
-						"buffer_size": 224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 1,
 					"file": "/C/disser_tex/doc/latex/disser/README.ru",
 					"settings":
 					{
@@ -556,19 +465,47 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "intro.tex",
+					"buffer": 2,
+					"file": "/C/disser_tex/doc/latex/disser/templates/bachelor/1.tex",
 					"settings":
 					{
-						"buffer_size": 571,
+						"buffer_size": 4201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								178,
-								178
+								964,
+								964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2556.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "common.tex",
+					"settings":
+					{
+						"buffer_size": 8965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								813,
+								813
 							]
 						],
 						"settings":
@@ -576,34 +513,61 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2655.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+					"buffer": 4,
+					"file": "thesis.tex",
 					"settings":
 					{
-						"buffer_size": 4232,
+						"buffer_size": 2550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1620,
+								1620
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1320.0,
+						"translation.y": 1380.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "thesis.bib",
+					"settings":
+					{
+						"buffer_size": 6123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2062,
+								2062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 635.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -644,7 +608,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 377.0
+		"height": 208.0
 	},
 	"replace":
 	{
@@ -657,7 +621,35 @@
 		"selected_items":
 		[
 			[
+				"autore",
+				"autoref.tex"
+			],
+			[
+				"auto",
+				"autoref.tex"
+			],
+			[
+				"com",
+				"common.tex"
+			],
+			[
+				"au",
+				"autoref.tex"
+			],
+			[
+				"bib",
+				"thesis.bib"
+			],
+			[
 				"comm",
+				"common.tex"
+			],
+			[
+				"aut",
+				"autoref.tex"
+			],
+			[
+				"c",
 				"common.tex"
 			],
 			[
