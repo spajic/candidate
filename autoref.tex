@@ -22,10 +22,14 @@ colorlinks=false % цветные гиперссылки
 \usepackage{enumitem}
 \usepackage{array}
 \usepackage{float}
+\usepackage{anyfontsize}
+\usepackage{booktabs}
 %\usepackage[dvips]{graphicx}
 %\usepackage{setspace}
 
 \setlist{nolistsep}
+
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 
 
 %Автор предлагает покрутить эти параметры для изменения отступов в списках. Правда, я не понял, где их крутить - здесь они не работают.
@@ -62,6 +66,13 @@ colorlinks=false % цветные гиперссылки
 
 \onethirdspacing
 \begin{document}
+\fontsize{13}{15.6}\selectfont
+\setlength{\abovecaptionskip}{-5pt}
+\setlength{\belowcaptionskip}{-5pt}
+%\setlength{\abovecaptionskip}{15pt plus 3pt minus 2pt}
+% plus и minus - насколько ему позволительно сыграть
+%\setlength{\abovecaptionskip}{0pt}
+%\setlength{\belowcaptionskip}{0pt}
 %\small
 % Включение файла с общим текстом диссертации и автореферата
 % (текст титульного листа и характеристика работы).
@@ -396,33 +407,35 @@ colorlinks=false % цветные гиперссылки
 
 %p{0.3\linewidth}
 %\tablespacing
+
 \begin{mytable}[h]
   \caption{Выбор технологий программирования}
   \label{tbl:choose_programming_technoligies}
 \begin{center}
   %\small
-  \begin{tabulary}{1\textwidth}{JJJ}
-    \hline
-    \centering{\textbf{Категория}}      & \centering{\textbf{Выбор}}  & \centering{\textbf{Назначение}} \tabularnewline
+  \begin{tabulary}{1\textwidth}{@{}JJJ@{}}\toprule
+    \textbf{Категория}      & 
+    \textbf{Выбор}  & 
+    \textbf{Назначение} \tabularnewline
 
-    \hline
+    \midrule
     SMP-системы      & OpenMP, Intel TBB, библиотеки численных методов & Программирование сложных моделей, не обладающих массовым параллелизмом. Использование библиотек численных методов.  \\
-    \hline
+    %\hline
 
     Массивно-параллельные вычисления & 
     CUDA, библиотеки численных методов & 
     Программирование простых моделей, обладающих массовым параллелизмом. Использование библиотек численных методов. \\
-    \hline
+    %\hline
 
     Вычислительные кластеры & 
     MPI & 
     Программирование наиболее вычислительно сложных задач.\\
-    \hline
+    %\hline
 
     Технология создания компонентной распределённой системы & 
     ICE & 
     Использование в качестве базы создания распределённой системы.\\
-    \hline
+    \bottomrule
   \end{tabulary}  
   \end{center}
 \end{mytable}
@@ -730,41 +743,41 @@ $K_{\text{то}}, K_{\text{эф}}$, расчетная схема не содержит КЦ. В работе имитиро
 Различные вычислительные конфигурации представлены в таблице .
 
 \begin{mytable}[h]
+  \ra{1.3}
   \caption{Вычислительные конфигурации при проведении экспериментов}
   \label{tbl:compute_experiments_configurations}
 \begin{center}
   %\small
-  \begin{tabulary}{1\textwidth}{JJJJ}
-    \hline
-    \centering{\textbf{Название}}      & 
-    \centering{\textbf{Форм-фактор}}   & 
-    \centering{\textbf{Процессор}}     &
-    \centering{\textbf{CUDA-устройство}}     \tabularnewline
+  \begin{tabulary}{1\textwidth}{@{}JJJJ@{}}\toprule
+    \textbf{Название}      & 
+    \textbf{Форм-фактор}   & 
+    \textbf{Процессор}     &
+    \textbf{CUDA-устройство}     \tabularnewline
 
-    \hline
+    \midrule
     Notebook     & 
     Ноутбук & 
     Intel core i5, 4 ядра &
     GeForce GTX 460M \\
-    \hline
+    
 
     Desktop     & 
     Десктоп & 
     Intel core i7, 8 ядер &
     2xGeForce GTX 460 \\
-    \hline
+    
 
     AWS     & 
     Виртуальная машина в облаке & 
     Intel core i7, 8 ядер &
     2xTesla M2050 \\
-    \hline
+    
 
     4xAWS     & 
     Ноутбук & 
     Intel core i5, 4 ядра &
     GeForce GTX 460M \\
-    \hline
+    \bottomrule
     
   \end{tabulary}  
   \end{center}
