@@ -62,13 +62,17 @@ colorlinks=false % цветные гиперссылки
 \newenvironment{itemize*}{\onethirdspacing\begin{itemize}}{\end{itemize}\onehalfspacing}
 
 \newcommand\tablespacing{\renewcommand\baselinestretch{1.1}\normalsize}
-\newenvironment{mytable}{\tablespacing\begin{table}}{\end{table}\onehalfspacing}
+
+\newenvironment{mytable}{\tablespacing\ra{1.3}\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{5pt}\begin{table}}{\end{table}\onehalfspacing}
+
+\newenvironment{myfigure}{\setlength{\abovecaptionskip}{-5pt}
+\setlength{\belowcaptionskip}{-5pt}\begin{figure}}{\end{figure}}
 
 \onethirdspacing
 \begin{document}
 \fontsize{13}{15.6}\selectfont
-\setlength{\abovecaptionskip}{-5pt}
-\setlength{\belowcaptionskip}{-5pt}
+
 %\setlength{\abovecaptionskip}{15pt plus 3pt minus 2pt}
 % plus и minus - насколько ему позволительно сыграть
 %\setlength{\abovecaptionskip}{0pt}
@@ -201,13 +205,15 @@ colorlinks=false % цветные гиперссылки
 \textbf{В первой главе} \emph{<<Анализ проблем в области разработки и развития компьютерных программно-вычислительных комплексов моделирования режимов систем газоснабжения>>} рассмотрено современное состояние функциональной подсистемы компьютерного  моделирования в составе АСДУ ЕСГ России.
 
 Иерархическая схема АСДУ представлена на рисунке~\ref{fig:ASDU_hierarchy}.
-\begin{figure}[h!]
+\begin{myfigure}[h!]
+\setlength{\abovecaptionskip}{-5pt}
+\setlength{\belowcaptionskip}{-5pt}
   \center{
     \includegraphics[width=1\linewidth]{ASDU_hierarchy}
   }
   \caption{Схема системы диспетчерского управления ЕСГ}
   \label{fig:ASDU_hierarchy}
-\end{figure}
+\end{myfigure}
 
 ЦПДД – Центральный производственно-диспетчерский департамент ОАО «Газпром», ПДС ЭО – производственно-диспетчерская служба эксплуатирующей организации, ДП ЛПУ МГ – диспетчерский пункт линейного производственного управления магистральными газопроводами.
 
@@ -270,13 +276,13 @@ colorlinks=false % цветные гиперссылки
 Низкоуровневые механизмы взаимодействия клиента и сервера выполняются слоем удалённого взаимодействия.
 Схема взаимодействия сервисов в распределённой среде представлена на рисунке~\ref{fig:service_interaction_general}.
 
-\begin{figure}[h!]
+\begin{myfigure}[h!]
   \center{
     \includegraphics[width=1\linewidth]{service_interaction_general}
   }
   \caption{Схема взаимодействия сервисов в распределённой среде}
   \label{fig:service_interaction_general}
-\end{figure}
+\end{myfigure}
 
 Организация системы в виде сервисов, взаимодействующих в распределённой среде, имеет следующие преимущества: прозрачность расположения, реализации и платформы компонент распределённой системы.
 
@@ -302,12 +308,12 @@ colorlinks=false % цветные гиперссылки
 \emph{Служебный сервис диспетчер ресурсов.} Выполняется на одном из узлов распределённой системы и управляет комплектами типизированных вычислительных ресурсов в рамках множества управляемых узлов. Его интерфейс предоставляет возможность монопольного захвата комплекта вычислительных ресурсов необходимого типа.
 
 Схема функционирования явного управления типизированными комплектами вычислительных ресурсов приведена на рисунке~\ref{fig:explicit_resource_management_general}.
-\begin{figure}[h!]
+\begin{myfigure}[h!]
   \center{
     \includegraphics[width=1\linewidth]{explicit_resource_management_general} }
   \caption{Схема явного управления комплектами вычислительных ресурсов}
   \label{fig:explicit_resource_management_general}
-\end{figure}
+\end{myfigure}
 
 Предложенная схема позволяет обеспечить монопольный и прямой характер работы клиента с сервером посредством установления прямого канала клиента с сервисом управления комплектом вычислительных ресурсов – при этом на время работы сервис управления изымается сервис-диспетчером из соответствующего пула ресурсов и не может быть захвачен другим клиентом.
 
@@ -536,23 +542,23 @@ $q_i^{l+1}(P_{i,\text{вх}}^l, P_{i,\text{вых}}^l)$ в ряд Тейлора:
 \end{itemize}
 
 Схема взаимодействия сервисов  представлена на рисунке~\ref{fig:UML_interaction_for_balancing}.
-\begin{figure}[h!]
+\begin{myfigure}[h!]
   \center{
     \includegraphics[width=1\linewidth]{UML_interaction_for_balancing}
   }
   \caption{Параллельное моделирование режимов дуг расчётной схемы}
   \label{fig:UML_interaction_for_balancing}
-\end{figure}
+\end{myfigure}
 
 Параллельное моделирование режимов многочисленных объектов, обладающих простыми вычислительными моделями, решение системы уравнений целесообразно производить с использованием технологии CUDA; моделирование режимов дуг, обладающих вычислительно-сложными моделями, организацию вычислительного процесса моделирования целесообразно осуществлять на центральном процессоре. Таким образом, сервис моделирования режима СГ может эффективно выполняться на комплекте вычислительных ресурсов, содержащим многоядерный центральный процессор и CUDA-устройство. Схема такой конфигурации приведена на рисунке~\ref{fig:service_gts_online}.
 
-\begin{figure}[h!]
+\begin{myfigure}[h!]
   \center{
     \includegraphics[width=1\linewidth]{service_gts_online}
   }
   \caption{Сервис расчёта режима систеы газоснабжения в режиме on-line}
   \label{fig:service_gts_online}
-\end{figure}
+\end{myfigure}
 
 \subsection*{Задача адаптации модели системы газоснабжения к фактическим режимам}
 
@@ -701,13 +707,13 @@ $\frac {\partial p_r^l} {\partial a_k^l}$
 Для численного расчета частных производных параметров режима в контрольных точках СГ от идентифицируемых параметров модели необходимо рассчитать $n_a+1$ режимов СГ при различных состояниях вектора идентифицируемых параметров $\vec{a}$ модели. Таким образом, можно организовать параллельный вычислительный процесс расчёта  режимов СГ на каждой итерации. Размерность задачи может многократно возрасти, если использовать множество замеров не для одного момента времени, а на различных уровнях квантования рассматриваемого отрезка времени $t = [t_0, t_j]$, то есть каждый контролируемый параметр режима будет представлять собой временной ряд замеров. 
 
 Схема организации распараллеленного вычислительного процесса представлена на рисунке~\ref{fig:service_adaptation}.
-\begin{figure}[h!]
+\begin{myfigure}[h!]
   \center{
     \includegraphics[width=1\linewidth]{service_adaptation}
   }
   \caption{Схема организации вычислительного процесса адаптации модели СГ к фактическим режимам в распределённой среде}
   \label{fig:service_adaptation}
-\end{figure}
+\end{myfigure}
 
 Задача расчёта одного экземпляра режима СГ может полностью использовать вычислительные ресурсы отдельного компьютера, поэтому параллельные процессы расчёта множества режимов СГ целесообразно организовать в распределённой среде, что можно сделать следующим образом.
 \begin{enumerate}
@@ -743,7 +749,6 @@ $K_{\text{то}}, K_{\text{эф}}$, расчетная схема не содержит КЦ. В работе имитиро
 Различные вычислительные конфигурации представлены в таблице .
 
 \begin{mytable}[h]
-  \ra{1.3}
   \caption{Вычислительные конфигурации при проведении экспериментов}
   \label{tbl:compute_experiments_configurations}
 \begin{center}
