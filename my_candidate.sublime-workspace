@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"tbl",
+				"tbl:compute_experiments_configurations"
+			],
+			[
 				"admin",
 				"eq:adaptation_F_to_minimize"
 			],
@@ -55,15 +59,15 @@
 			"file": "autoref.tex",
 			"settings":
 			{
-				"buffer_size": 51568,
+				"buffer_size": 92965,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/disser_tex/doc/latex/disser/README.ru",
+			"file": "common.tex",
 			"settings":
 			{
-				"buffer_size": 3468,
+				"buffer_size": 18156,
 				"line_ending": "Unix"
 			}
 		},
@@ -72,14 +76,6 @@
 			"settings":
 			{
 				"buffer_size": 4201,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "common.tex",
-			"settings":
-			{
-				"buffer_size": 8965,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +91,7 @@
 			"file": "thesis.bib",
 			"settings":
 			{
-				"buffer_size": 6123,
+				"buffer_size": 8191,
 				"line_ending": "Windows"
 			}
 		}
@@ -160,6 +156,19 @@
 	},
 	"file_history":
 	[
+		"/C/disser_tex/doc/latex/disser/templates/candidate/l2r_0048.tex",
+		"/D/Torrents/GrindEQ Math Utils 2007/Русификатор/Read_Me.txt",
+		"/D/Torrents/GrindEQ Math Utils 2007/Crack/readme.txt",
+		"/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/Language - English/README_en_GB.txt",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/my.bbl",
+		"/C/disser_tex/doc/latex/disser/templates/candidate/autoref.tex",
+		"/C/disser_tex/doc/latex/disser/README.ru",
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.903/readme.txt",
+		"/C/disser_tex/source/latex/disser/gost705.dtx",
+		"/C/disser_tex/bibtex/bst/disser/gost705.bst",
+		"/C/disser_tex/doc/latex/disser/include/latex.fig.mk",
+		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/koma-script/scrbase.sty",
+		"/C/disser_tex/doc/latex/disser/templates/my_candidate/autoref.tex",
 		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/caption/caption.sty",
 		"/C/Users/1/Desktop/man-thesisby.tex",
 		"/C/Users/1/Desktop/text.tex",
@@ -172,13 +181,10 @@
 		"/C/disser_tex/doc/latex/disser/templates/candidate/autoref.bbl",
 		"/C/Program Files (x86)/MiKTeX 2.9/tex/latex/tools/array.sty",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/my_candidate.sublime-project",
-		"/C/disser_tex/doc/latex/disser/README.ru",
-		"/C/disser_tex/doc/latex/disser/include/latex.fig.mk",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/fig/README_sam2p",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/intro.tex",
 		"/C/Users/1/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
 		"/C/Users/1/Desktop/tabulary.dtx",
-		"/C/disser_tex/doc/latex/disser/templates/my_candidate/autoref.tex",
 		"/C/Users/1/Downloads/README",
 		"/C/disser_tex/doc/latex/disser/templates/master/thesis.tex",
 		"/C/disser_tex/doc/latex/disser/templates/doctor/thesis.tex",
@@ -192,7 +198,6 @@
 		"/C/Program Files (x86)/MiKTeX 2.9/pdftex/config/pdftex.cfg",
 		"/C/Program Files (x86)/MiKTeX 2.9/dvips/config/config.ps",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/common.tex",
-		"/C/disser_tex/doc/latex/disser/templates/candidate/autoref.tex",
 		"/C/disser_tex/doc/latex/disser/templates/candidate/thesis.tex",
 		"/C/disser_tex/doc/latex/disser/templates/bachelor/thesis.aux",
 		"/C/disser_tex/doc/latex/disser/templates/doctor/1.tex",
@@ -278,16 +283,7 @@
 		"/C/Users/1/AppData/Local/Temp/Rar$DI00.997/svn.history.txt",
 		"/C/Users/1/AppData/Local/Temp/Rar$DI00.947/svn.history.txt",
 		"/C/Users/1/AppData/Local/Temp/Rar$DI00.165/svn.history.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.166/svn.history.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.131/svn.history.txt",
-		"/C/Users/1/AppData/Local/Temp/Rar$DI00.509/svn.history.txt",
-		"/C/Enisey/src/config/config.json",
-		"/C/Enisey/perf/21.11.2012/Local/SLAE/SLAE_local_50xSaratov.log",
-		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/SLAE/SLAE_ice_50xSaratov_server.log",
-		"/C/Enisey/perf/21.11.2012/ICE-local (MSI)/GTS/GTS_ice_200xSaratov_server.log",
-		"/C/Enisey/perf/21.11.2012/AWS/GTS/gts_aws_200xSaratov - server.log",
-		"/C/Users/1/Dropbox/Enisey/MEIJIN_server.log",
-		"/C/Enisey/perf/21.11.2012/Profiling/Calc_Debug/GTS_PROFILE.txt"
+		"/C/Users/1/AppData/Local/Temp/Rar$DI00.166/svn.history.txt"
 	],
 	"find":
 	{
@@ -305,6 +301,57 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"КЦ",
+			"КЦ)",
+			"КЦ",
+			"КЦ (",
+			"КЦ(",
+			"КЦ ",
+			"КЦ",
+			"расчет",
+			"itemize*",
+			"itemize",
+			"itemize*",
+			"itemize",
+			"onethird",
+			"областях обла",
+			", ",
+			" - ",
+			"адаптаци",
+			"адаптации",
+			"можно",
+			"посредник",
+			"высоко-па",
+			"динамически",
+			"алгоритм",
+			"figure",
+			"ашпгку",
+			"AWS",
+			"разработанной сред",
+			"интерфейса",
+			"GPGPU",
+			"itemize*",
+			"equation",
+			"figure",
+			"inpro",
+			"\\end{figure}",
+			"\\begin{figure}",
+			"image",
+			"tabulary",
+			"mytable",
+			"belowcap",
+			"begin{doc",
+			"setlen",
+			"fi",
+			"figure",
+			"document",
+			"ашпгку",
+			"figure",
+			"tabulary",
+			"VASILY",
+			"VAS1ILY",
+			"VSAILY",
+			"tabulary",
 			"Section",
 			"mytable",
 			"img",
@@ -381,10 +428,7 @@
 			",",
 			"Щук",
 			"20",
-			"День",
-			"19",
-			"sstream",
-			"7 8"
+			"День"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -392,6 +436,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"расчёт",
+			"itemize",
+			"itemize*",
+			"\\end{myfigure}",
+			"\\begin{myfigure}",
 			" ",
 			","
 		],
@@ -412,51 +461,51 @@
 					"file": "autoref.tex",
 					"settings":
 					{
-						"buffer_size": 51568,
+						"buffer_size": 92965,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47122,
-								47122
+								77313,
+								77313
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 21755.0,
+						"translation.y": 35378.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/disser_tex/doc/latex/disser/README.ru",
+					"file": "common.tex",
 					"settings":
 					{
-						"buffer_size": 3468,
+						"buffer_size": 18156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								636,
-								636
+								13608,
+								13608
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -476,8 +525,8 @@
 						"selection":
 						[
 							[
-								964,
-								964
+								1523,
+								1530
 							]
 						],
 						"settings":
@@ -487,39 +536,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2556.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "common.tex",
-					"settings":
-					{
-						"buffer_size": 8965,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								813,
-								813
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2655.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "thesis.tex",
 					"settings":
 					{
@@ -530,8 +553,8 @@
 						"selection":
 						[
 							[
-								1620,
-								1620
+								16,
+								16
 							]
 						],
 						"settings":
@@ -539,25 +562,25 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "thesis.bib",
 					"settings":
 					{
-						"buffer_size": 6123,
+						"buffer_size": 8191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2062,
-								2062
+								0,
+								0
 							]
 						],
 						"settings":
@@ -567,7 +590,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 635.0,
+						"translation.y": 695.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -608,7 +631,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 208.0
+		"height": 252.0
 	},
 	"replace":
 	{
@@ -674,7 +697,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }
